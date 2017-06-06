@@ -1,0 +1,21 @@
+<h1> Contact Info! </h1>
+
+<%= form_tag('/thanks') do %>
+<%= label_tag'contact name'%>
+<%=text_field_tag'name'%>
+<%= label_tag'email'%>
+<%=text_field_tag'email'%>
+<%=submit_tag'save'%>
+<% end %>
+
+
+<!-- <form method="POST" action="/contact">
+ <label for="contact"> Contact Name </label>
+ <input type="text"  >
+ <label for="email"> Email </label>
+ <input type="email"  name="Email">
+ <label for "age"> Age </label>
+ <input type="number" >
+ <input type="submit">
+</form>
+ -->
